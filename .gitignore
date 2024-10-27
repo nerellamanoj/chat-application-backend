@@ -1,2 +1,29 @@
 node_modules/
 serviceAccountKey.json/
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build files
+dist/
+build/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Editor config
+.vscode/
+.idea/
+*.swp
+
+# Sensitive files
+serviceAccountKey.json
